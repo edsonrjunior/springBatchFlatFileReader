@@ -7,11 +7,13 @@ import org.springframework.batch.item.file.builder.FlatFileItemReaderBuilder;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.core.io.ClassPathResource;
+import org.springframework.context.annotation.Primary;
 import org.springframework.core.io.Resource;
 
 @Configuration
-public class ItemReaderConfig {
+public class CsvFileReaderConfig {
+
+    @Primary
     @StepScope
     @Bean
     public FlatFileItemReader<Cliente> delimitedFlatFileReader(
