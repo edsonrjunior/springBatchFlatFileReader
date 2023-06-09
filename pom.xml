@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.edsonrjunior</groupId>
-	<artifactId>springBatchDelimitedFileReader</artifactId>
+	<artifactId>SpringBatchDelimitedFileReader</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springBatchDelimitedFileReader</name>
 	<description>Reading a delimited file and saving in another one</description>

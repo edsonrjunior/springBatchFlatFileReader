@@ -1,6 +1,6 @@
-package br.com.edsonrjunior.springBatchDelimitedFileReader.step;
+package br.com.edsonrjunior.SpringBatchDelimitedFileReader.step;
 
-import br.com.edsonrjunior.springBatchDelimitedFileReader.domain.Cliente;
+import br.com.edsonrjunior.SpringBatchDelimitedFileReader.domain.Cliente;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 import org.springframework.batch.item.ItemReader;
@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Primary;
 
 
 @Configuration
@@ -24,7 +23,7 @@ public class CsvFileStepConfig {
             ItemReader<Cliente> delimitedFlatFileReader,
             ItemWriter<Cliente> delimitedFlatFileWriter) {
 
-        return stepBuilderFactory
+        return  stepBuilderFactory
                 .get("itemReaderStep")
                 .<Cliente, Cliente>chunk(5)
                 .reader(delimitedFlatFileReader)

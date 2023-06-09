@@ -1,9 +1,7 @@
-package br.com.edsonrjunior.springBatchDelimitedFileReader.writer;
+package br.com.edsonrjunior.SpringBatchDelimitedFileReader.writer;
 
-import br.com.edsonrjunior.springBatchDelimitedFileReader.domain.Cliente;
+import br.com.edsonrjunior.SpringBatchDelimitedFileReader.domain.Cliente;
 import org.springframework.batch.core.configuration.annotation.StepScope;
-import org.springframework.batch.item.file.FlatFileItemWriter;
-import org.springframework.batch.item.file.builder.FlatFileItemWriterBuilder;
 import org.springframework.batch.item.json.JacksonJsonObjectMarshaller;
 import org.springframework.batch.item.json.JsonFileItemWriter;
 import org.springframework.batch.item.json.builder.JsonFileItemWriterBuilder;
@@ -11,7 +9,6 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Primary;
 import org.springframework.core.io.Resource;
 
 @Configuration

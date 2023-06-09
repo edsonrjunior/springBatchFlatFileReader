@@ -1,6 +1,6 @@
-package br.com.edsonrjunior.springBatchDelimitedFileReader.reader;
+package br.com.edsonrjunior.SpringBatchDelimitedFileReader.reader;
 
-import br.com.edsonrjunior.springBatchDelimitedFileReader.domain.Cliente;
+import br.com.edsonrjunior.SpringBatchDelimitedFileReader.domain.Cliente;
 import org.springframework.batch.core.configuration.annotation.StepScope;
 import org.springframework.batch.item.file.FlatFileItemReader;
 import org.springframework.batch.item.file.builder.FlatFileItemReaderBuilder;
@@ -23,7 +23,7 @@ public class CsvFileReaderConfig {
     ) {
         return new FlatFileItemReaderBuilder<Cliente>()
                 .name("delimitedFlatFileReader")
-               // .resource(new ClassPathResource("files/clientes.csv"))
+                // .resource(new ClassPathResource("files/clientes.csv"))
                 .resource(arquivoClientes)
                 .encoding("UTF-8")
                 .delimited()

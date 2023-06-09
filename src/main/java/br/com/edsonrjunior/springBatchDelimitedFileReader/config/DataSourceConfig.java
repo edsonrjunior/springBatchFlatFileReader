@@ -1,4 +1,4 @@
-package br.com.edsonrjunior.springBatchDelimitedFileReader.config;
+package br.com.edsonrjunior.SpringBatchDelimitedFileReader.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.jdbc.DataSourceBuilder;

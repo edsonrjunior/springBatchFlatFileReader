@@ -1,4 +1,4 @@
-package br.com.edsonrjunior.springBatchDelimitedFileReader.domain;
+package br.com.edsonrjunior.SpringBatchDelimitedFileReader.domain;
 
 import lombok.Data;
 

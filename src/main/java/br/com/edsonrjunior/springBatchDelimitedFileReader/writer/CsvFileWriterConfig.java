@@ -1,6 +1,6 @@
-package br.com.edsonrjunior.springBatchDelimitedFileReader.writer;
+package br.com.edsonrjunior.SpringBatchDelimitedFileReader.writer;
 
-import br.com.edsonrjunior.springBatchDelimitedFileReader.domain.Cliente;
+import br.com.edsonrjunior.SpringBatchDelimitedFileReader.domain.Cliente;
 import org.springframework.batch.core.configuration.annotation.StepScope;
 import org.springframework.batch.item.file.FlatFileItemWriter;
 import org.springframework.batch.item.file.builder.FlatFileItemWriterBuilder;

@@ -1,4 +1,4 @@
-package br.com.edsonrjunior.springBatchDelimitedFileReader;
+package br.com.edsonrjunior.SpringBatchDelimitedFileReader;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

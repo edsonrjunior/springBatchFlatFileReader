@@ -1,6 +1,6 @@
-package br.com.edsonrjunior.springBatchDelimitedFileReader.step;
+package br.com.edsonrjunior.SpringBatchDelimitedFileReader.step;
 
-import br.com.edsonrjunior.springBatchDelimitedFileReader.domain.Cliente;
+import br.com.edsonrjunior.SpringBatchDelimitedFileReader.domain.Cliente;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 import org.springframework.batch.item.ItemReader;

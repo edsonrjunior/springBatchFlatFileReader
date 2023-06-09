@@ -1,6 +1,6 @@
-package br.com.edsonrjunior.springBatchDelimitedFileReader.reader;
+package br.com.edsonrjunior.SpringBatchDelimitedFileReader.reader;
 
-import br.com.edsonrjunior.springBatchDelimitedFileReader.domain.Cliente;
+import br.com.edsonrjunior.SpringBatchDelimitedFileReader.domain.Cliente;
 import org.springframework.batch.core.configuration.annotation.StepScope;
 import org.springframework.batch.item.json.JacksonJsonObjectReader;
 import org.springframework.batch.item.json.JsonItemReader;
